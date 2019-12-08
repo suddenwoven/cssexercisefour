@@ -1,0 +1,74 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.baku {
+    background-image: url("/images/baku.jpg");
+    max-width: 800px;
+
+  }
+
+.london {
+    background-image: url("/images/london.png");
+    max-width: 800px;
+
+
+    }
+
+.madrid {
+    background-image: url("/images/madrid.jpg");
+    max-width: 800px;
+
+        }
+
+.rome {
+    background-image: url("/images/rome.jpg");
+    max-width: 800px;
+
+            }
+
+
+/* ipad resource */
+@media screen and (min-width: 575px){
+   div {
+    display: inline-block;
+    width: 100%;
+    border: 0%;
+    margin: 15px;
+    background-repeat: no-repeat;
+    height: 300px;
+
+}
+}
+/* laptop */
+@media screen and (min-width: 1199px){
+   div {
+      width: 40%;
+       display: inline-block;
+       border: 2%;
+       background-repeat: no-repeat;
+       height: 300px;
+
+}
+
+/*BLOCK*/
+.container {
+  background-color: #dadada;
+}
+
+body {
+  background-color: #dadada;
+  text-transform: uppercase;
+
+
+}
+div {
+  background-color: pink;
+}
+
+
+
+h1 {
+  font-size: 1em;
+  font-family:sans-serif;
+}
